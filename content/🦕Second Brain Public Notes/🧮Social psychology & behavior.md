@@ -1,0 +1,40 @@
+---
+tags:
+  - growth/people-skills
+---
+
+- [Social proof: is there always safety in numbers?](https://nesslabs.com/social-proof)
+
+---
+- [[From FOMO to JOMO- the joy of missing out - Ness Labs]]
+- [[How to Talk to Strangers Like a Pro (& Avoid Awkwardness)]]
+- [[How to Deal With Narcissists (Personal & Work Relationships)]]
+- [[How To Explain Things Better (Make People Understand You!) 19-12-2023]]
+- [[Groupthink- when collective decisions go wrong - Ness Labs]]
+- [[What Is Groupthink- 18 Simple Strategies to Avoid it]]
+- [[How to Approach a New Group of People in 3 Simple Steps]]
+- [[Ingroups and Outgroups- How Social Identity Influences People – Effectiviology]]
+- [[Crab Mentality- When People Pull Down Those Who Get Ahead – Effectiviology]]
+- [[Chutzpah- The Benefits and Dangers of Shameless Audacity – Effectiviology]]
+- [[Reverse Psychology- Getting People to Do Something By Asking for the Opposite – Effectiviology]]
+- [[Double Standards- What They Are and How to Respond to Them – Effectiviology]]
+- [[Virtue Signaling- When People Try to Show Their Goodness – Effectiviology]]
+- [[FOMO- How to Overcome the Fear of Missing Out – Effectiviology]]
+- [[The Availability Cascade- How Information Spreads on a Large Scale – Effectiviology]]
+- [[Be More Likable Using These 5 Science Backed Strategies]]
+- [[150 Best Positive Compliments For Praising Someone Anywhere]]
+- [[How to Deal With Fake Compliments (And Give Genuine Ones!)]]
+- [[Highly Sensitive People- How to Harness This Superpower]]
+- [[How to Get Someone to Confess or Divulge Information]]
+- [[8 Techniques You Can Learn To Become More Persuasive]]
+- [[Proxemics- How to Use the 4 Zones in ANY Social Situation]]
+- [[376 BEST Trivia Questions and Answers For Game Night (2023)]]
+- ☞[[Priming Psychology- How to Get People to Do What You Want]]
+- [[How to Promote Yourself and Your Ideas Without Being Obnoxious]]
+- ☞[[How to Tell if Someone is Lying- The Ultimate Deception Guide]]
+- [[The False-Consensus Effect- People Overestimate How Much Others Are Like Them – Effectiviology]]
+- [[Nudge- How Small Changes Can Significantly Influence People’s Choices – Effectiviology]]
+- [[The Bandwagon Effect- Why People Tend to Follow the Crowd – Effectiviology]]
+- [x] [[The Abilene paradox- When not rocking the boat may sink the boat - Ness Labs]]
+- [[57 Killer Conversation Starters So You Can Talk to Anyone]]
+- [[How to Be Indispensable - Science of People]]
