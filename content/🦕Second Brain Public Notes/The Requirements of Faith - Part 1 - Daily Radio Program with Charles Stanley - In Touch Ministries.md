@@ -1,6 +1,7 @@
 ---
 tags:
   - growth/faith
+  - learning/podcast
 "Podcast :": Daily Radio Program with Charles Stanley - In Touch Ministries
 "Episode :": The Requirements of Faith - Part 1
 "PublishDate :": 2023-11-10

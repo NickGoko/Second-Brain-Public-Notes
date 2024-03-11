@@ -1,8 +1,9 @@
 ---
 tags:
   - growth/mental
+  - self-improvement
 ---
-]  
+
 According to Marty McFly in the classic 1985 movie Back to the Future, “If you put your mind to it, you can accomplish anything.”
 
 Now that we live in the future, in a world where there is more information available at your fingertips than you could ever consume, at a time where it only takes a click to pick the brains of the most brilliant experts of our era, it can indeed seem like anything is possible. One just needs a bit of imagination and determination.  

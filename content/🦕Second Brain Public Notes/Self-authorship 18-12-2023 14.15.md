@@ -8,7 +8,7 @@ Have you ever felt like you should do something because everyone is doing it?
 Do you follow certain rules which were taught to you as a kid, just out of principle, or maybe out of habit?  
 Are there behaviors you consider acceptable based on what the society you live in has defined?
 
-Alongside [growth mindset](https://nesslabs.com/growth-mindset) and [metacognition](https://nesslabs.com/metacognition), <mark style="background: #BBFABBA6;">self-authorship</mark> is one of the three key pillars of [mindframing](https://nesslabs.com/mindframing).  
+Alongside [[Growth mindset 18-12-2023 14.17| Growth Mindset]] and [[Metacognition - the mind's Swiss Army knife 18-12-2023 14.21| Metacognition]], <mark style="background: #BBFABBA6;">self-authorship</mark> is one of the three key pillars of [[Mind Framing 18-12-2023 14.00|mind framing]].  
 **Self-authorship** is the belief that you can rely on your own internal values to make decisions.  
 <mark style="background: #BBFABBA6;">It’s accepting the fact that you cannot control all the external event happening to you and around you, but you can control the way you react. </mark>  
 It’s a powerful mind frame, but it’s hard to master.

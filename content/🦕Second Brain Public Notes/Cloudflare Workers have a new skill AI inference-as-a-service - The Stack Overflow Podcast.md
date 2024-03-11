@@ -1,0 +1,36 @@
+---
+tags:
+  - learning/podcast
+"Podcast :": The Stack Overflow Podcast
+"Episode :": Cloudflare Workers have a new skill AI inference-as-a-service
+"PublishDate :": 2023-11-21
+Associations: 
+Links:
+---
+- [00:01:17](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=77.127948) CloudFlare runs 20% of the web. 
+- - [00:02:31](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=151.718586) Role called <mark style="background: #FFB86CA6;">Solutions Engineer. </mark>
+- [00:03:49](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=229.615071)WorkersAny developer to be able to run code that get deployed directly to CloudFare Network.  
+They don't have to touch an Nginx config, or server running. 
+- [00:04:30](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=270.943401)Edge functions. CloudFlare Workers. Work similar to Lambdafunctions as a service. Vercel. 
+- You write your code whether locally or in the built in IDE and deploy it to Cloudflare. Generally when you deploy one of these functions, they get deployed in a particular region. Under the hood a container gets spun up ever single time you make a request. 
+- [00:05:29](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=329.630671) Workers works differently in that its distributed globally. If you make a request in Australia you workers is going to run in workers-australia. Typically if your function runs in us-east and your request comes from Australia, you pay for the round trip latency
+- - [00:05:58](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=358.792932) Also instead of running containers they run <mark style="background: #FFB86CA6;">V8 isolates</mark> similar to the model of having a chrome browser and having multiple tabs open. They are very light weight. Cold starts are non existent. They run a lot faster. 
+- - [00:09:51](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=591.908503) Workers AIServerless to AI. So you don't have to go provision GPUs
+- [00:12:21](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=741.111769) Run the model you need to make build the application you need. And they will take care of the rest. 
+- - [00:13:08](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=788.52223) If you make a query to AI its going to be stateless. If you want to ask it about you own suite of products you will have to give it all the information about your suite of products, before you ask your question. Which can be inefficient. 
+- - [00:13:24](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=804.098825) In the AI the equivalent of a database is a <mark style="background: #FFB86CA6;">vector database</mark> Realized along Workers AI is <mark style="background: #FFB86CA6;">Vectorize</mark> you can take your product database index it using AI save that to a vector database. When you ask it, it can instantly answer your request. 
+- Economic calculation of the GPU cost when its idle. 
+- When using OpenAI. You are thinking about it in tokens. Tokens translate to words. That's for language models. - [00:16:04](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=964.962703) Cloudflare allows- <mark style="background: #ABF7F7A6;">speech-to-text models, image-to-text models, image generation models in the future</mark> so tokens aren't the right model. 
+- The other model is counting things by number of hours.- [00:16:14](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=974.317887) but hours of compute is understood like the VM model. Where an hour is an hour whether you are using things or not. 
+- [00:16:35](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=995.49654) <mark style="background: #FFB86CA6;">Neurons</mark> CloudFlare's own metric. - Corresponds to how long an execution takes. Only pay for how many neurons you use rather than for idle compute. If you had 100 inferences you pay for 100. 
+- - [00:17:10](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=1030.819936) People are relying in the inference part. Asking question on model that has been trained. 
+- - [00:17:33](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=1053.854723) Get requests for both training and fine tuning. But training is a better workload run on centralized clouds. Because it requires a lot of GPUs work at once. To be highly efficient and parellizeable. 
+- Two ways to get your models to be personalized. 
+	- Through having a vector database. 
+	- RAG architecture - you give AI context on your use case. ^5e8fa8
+		- Retrieval augmented generation. Retrieval augmented generation (RAG) is a strategy that helps address both LLM hallucinations and out-of-date training data.
+		- LLMs' knowledge-based problems come down to two key issues:
+			- LLM training data tends to be hopelessly out-of-date (as of writing, ChatGPT's knowledge of the world ends at January 2022, excluding functionality like Browse with Bing and GPT-4V that provide additional context).
+			- LLMs extrapolate when facts aren’t available, so they confidently make false but plausible-sounding statements when there's a gap in their knowledge (called hallucination).  
+		Retrieval augmented generation (RAG) is a strategy that helps address both of these issues, pairing information retrieval with a set of carefully designed system prompts to anchor LLMs on precise, up-to-date, and pertinent information retrieved from an external knowledge store. 
+	- Fine tuning comes into play when you want the tone or jargon to be different. They plan to support fine tuning in the future- [00:18:43](obsidian://podnotes?episodeName=Cloudflare+Workers+have+a+new+skill%3A+AI+inference-as-a-service&url=https%3A%2F%2Ffeeds.simplecast.com%2FXA_851k3&time=1123.896347)
