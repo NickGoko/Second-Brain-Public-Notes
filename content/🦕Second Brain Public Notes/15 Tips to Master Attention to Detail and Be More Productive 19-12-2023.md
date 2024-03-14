@@ -6,8 +6,8 @@ tags:
 ---
 
 
-According to research, people spend almost half their time thinking about something other than what they are doing at the moment. And here’s the kicker; doing so makes them unhappy! 
-
+According to research, <mark style="background: #BBFABBA6;">people spend almost half their time thinking about something other than what they are doing at the moment.</mark> And here’s the kicker; <mark style="background: #ADCCFFA6;">doing so makes them unhappy!  
+</mark>  
 (Maybe because they end up having to do it again to fix the mistakes from the first time?)
 
 With all the demands on your time and attention at home and the workplace, how do you hone in on the skills that will make you a detail-oriented master of your destiny? 

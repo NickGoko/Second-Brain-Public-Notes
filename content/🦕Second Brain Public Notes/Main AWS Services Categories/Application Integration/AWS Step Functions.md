@@ -8,7 +8,26 @@ tags:
 
 ![[Pasted image 20240214144034.png]]
 
+---
+- [[Serverless Skillbuider#Workflow Orchestration with AWS Step Functions|Workflow Orchestration with AWS Step Functions]]
 
+---
+- [Introduction to Step Functions(opens in a new tab)](https://explore.skillbuilder.aws/pages/55/learner-dashboard?ctl231=se-%22Introduction%20to%20Step%20Functions%22)
+- [How AWS Step Functions Work(opens in a new tab)](https://explore.skillbuilder.aws/pages/55/learner-dashboard?ctl231=se-%22How%20AWS%20Step%20Functions%20Work%22)
+- [Observability for AWS Step Functions(opens in a new tab)](https://explore.skillbuilder.aws/pages/55/learner-dashboard?ctl231=se-%22Observability%20for%20AWS%20Step%20Functions%22)
+- [Developer Tooling for AWS Step Functions(opens in a new tab)](https://explore.skillbuilder.aws/pages/55/learner-dashboard?ctl231=se-%22Developer%20Tooling%20for%20AWS%20Step%20Functions%22)
+- [Design Patterns for AWS Step Functions(opens in a new tab)](https://explore.skillbuilder.aws/pages/55/learner-dashboard?ctl231=se-%22Design%20Patterns%20for%20AWS%20Step%20Functions%22)
+- [AWS Step Functions Developer Guide(opens in a new tab)](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html)
+- [AWS Step Functions Overview(opens in a new tab)](https://aws.amazon.com/step-functions/)
+- [AWS Step Functions Quotas(opens in a new tab)](https://docs.aws.amazon.com/step-functions/latest/dg/limits.html)
+- [Supported AWS Service Integrations for Step Functions(opens in a new tab)](https://docs.aws.amazon.com/step-functions/latest/dg/connect-supported-services.html)
+- [Introduction to AWS Step Functions(opens in a new tab)](https://youtu.be/Dh7h3lkpeP4)
+- [Build on Serverless: Breaking the Monolith with Step Functions(opens in a new tab)](https://youtu.be/CFelZoLjF50)
+- ☞[The AWS Step Functions Workshop(opens in a new tab)](https://catalog.workshops.aws/stepfunctions/en-US)
+- [Tutorial: Create a Serverless Workflow(opens in a new tab)](https://aws.amazon.com/getting-started/tutorials/create-a-serverless-workflow-step-functions-lambda/)
+- [Builder Session: Create a State Machine that Implements the Saga Pattern](https://github.com/aws-samples/aws-step-functions-long-lived-transactions)
+
+---
 # FAQ
 ## Overview
 
@@ -16,29 +35,35 @@ tags:
 
 [AWS Step Functions](https://aws.amazon.com/step-functions/) is <mark style="background: #FFF3A3A6;">a fully managed service that makes it easier to coordinate the components of distributed applications and microservices using visual workflows</mark>. Building applications from individual components that each perform a discrete function helps you scale more easily and change applications more quickly.  
 
-Step Functions is a reliable way to coordinate components and step through the functions of your application. Step Functions provides a graphical console to arrange and visualize the components of your application as a series of steps. This makes it easier to build and run multi-step applications.  
+Step Functions is a reliable way to coordinate components and step through the functions of your application.  
+Step Functions provides a graphical console to arrange and visualize the components of your application as a series of steps. This makes it easier to build and run multi-step applications.  
 
-Step Functions automatically triggers and tracks each step and retries when there are errors, so your application executes in order and as expected. Step Functions logs the state of each step, so when things do go wrong, you can [diagnose and debug problems more quickly](https://aws.amazon.com/step-functions/features/). You can change and add steps without even writing code, so you can more easily evolve your application and innovate faster.  
+Step Functions automatically triggers and tracks each step and retries when there are errors, so your application executes in order and as expected. Step Functions logs the state of each step, so when things do go wrong, you can [diagnose and debug problems more quickly](https://aws.amazon.com/step-functions/features/).  
+You can change and add steps without even writing code, so you can more easily evolve your application and innovate faster.  
 
 ## Q: What Are the Benefits of Designing My Application Using Orchestration?
 
-Breaking an application into service components (or steps) ensures that the failure of one component does not bring the whole system down. Each component scales independently and that component may be updated without requiring the entire system to be redeployed after each change.  
+Breaking an application into service components (or steps) <mark style="background: #ADCCFFA6;">ensures that the failure of one component does not bring the whole system down</mark>.  
+ Each component scales independently and that component may be updated without requiring the entire system to be redeployed after each change.  
 
-The [coordination of service components](https://docs.aws.amazon.com/lambda/latest/dg/lambda-stepfunctions.html) involves managing execution dependencies and scheduling, and concurrency in accordance with the logical flow of the application. In such an application, you can use service orchestration to do this and to handle failures.  
+The [coordination of service components](https://docs.aws.amazon.com/lambda/latest/dg/lambda-stepfunctions.html) involves <mark style="background: #FF5582A6;">managing execution dependencies and scheduling, and concurrency in accordance with the logical flow of the application</mark>. In such an application, you can use service orchestration to do this and to handle failures.  
 
 ## Q: What Are Some Common Step Functions Use Cases?
 
-Step Functions helps with any computational problem or business process that can be subdivided into a series of steps. It’s also useful for creating end-to-end workflows to manage jobs with interdependencies. Common use cases include:
+Step Functions helps with any computational problem or business process that can be subdivided into a series of steps.  
+It’s also useful for creating end-to-end workflows to manage jobs with interdependencies. 
 
-- Data processing: consolidate data from multiple databases into unified reports, refine and reduce large data sets into useful formats, iterate and process millions of files in an Amazon Simple Storage Service (S3) bucket with high concurrency workflows, or coordinate multi-step analytics and machine learning workflows
-- Building serverless generative AI applications: leverage Step Functions for orchestrating interactions with [Amazon Bedrock’s](https://aws.amazon.com/bedrock/) Foundation Models, prompt chaining, fine-tuning, and enriching with capabilities from over 220 AWS services
-- DevOps and IT automation: build tools for continuous integration and continuous deployment, or create event-driven applications that automatically respond to changes in infrastructure
-- E-commerce: automate mission-critical business processes, such as order fulfillment and inventory tracking
-- Web applications: implement robust user registration processes and sign-on authentication  
+Common use cases include:
+- Data processing: <mark style="background: #BBFABBA6;">consolidate data from multiple databases into unified reports, refine and reduce large data sets into useful formats</mark>, iterate and process millions of files in an Amazon Simple Storage Service (S3) bucket with high concurrency workflows, or coordinate multi-step analytics and machine learning workflows
+	  
+- <mark style="background: #ADCCFFA6;">Building serverless generative AI applications</mark>: leverage Step Functions for orchestrating interactions with [Amazon Bedrock’s](https://aws.amazon.com/bedrock/) Foundation Models, prompt chaining, fine-tuning, and enriching with capabilities from over 220 AWS services
+	  
+- <mark style="background: #CACFD9A6;">DevOps and IT automation</mark>: <mark style="background: #BBFABBA6;">build tools for continuous integration and continuous deployment, or create event-driven applications that automatically respond to changes in infrastructure</mark>
+	  
+- E-commerce: <mark style="background: #BBFABBA6;">automate mission-critical business processes, such as order fulfillment and inventory tracking</mark>
+	  
+- Web applications: <mark style="background: #BBFABBA6;">implement robust user registration processes and sign-on authentication </mark> 
     
-
-For more details, explore AWS Step Functions [use cases](https://aws.amazon.com/step-functions/use-cases/) and [customer testimonials](https://aws.amazon.com/step-functions/customer-testimonials/).
-
 ## Q: How Does AWS Step Functions Work?
 
 When you use Step Functions, you define state machines that describe your workflow as a series of steps, their relationships, and their inputs and outputs. State machines contain a number of states, each of which represents a step in a workflow diagram.  
